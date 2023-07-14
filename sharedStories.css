@@ -1,0 +1,310 @@
+.stories-main-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.story-card-container {
+  max-width: 100%;
+}
+
+.stories-form-container {
+  max-width: 100%;
+}
+
+.stories-form {
+  width: 600px;
+  border: darkgray;
+}
+
+.stories-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.stories-card-title {
+  height: 20px;
+}
+
+.stories-card-body {
+  height: 255px;
+}
+
+.stories-text-input {
+  width: 65%;
+}
+
+.approved-stories-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+.stories-search-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.stories-search-bar-container input,
+.stories-search-bar-container button {
+  height: 30px;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.stories-button {
+  background-image: linear-gradient(95.37deg, #00ffa3 0%, #4aa6b2 100%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-r.stories-main-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .story-card-container {
+    max-width: 100%;
+  }
+
+  .stories-form-container {
+    max-width: 100%;
+  }
+
+  .stories-form {
+    width: 600px;
+    border: darkgray;
+  }
+
+  .stories-card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .stories-card-title {
+    height: 20px;
+  }
+
+  .stories-card-body {
+    height: 255px;
+  }
+
+  .stories-text-input {
+    width: 65%;
+  }
+
+  .approved-stories-filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 31px;
+  }
+
+  .stories-search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .stories-search-bar-container input,
+  .stories-search-bar-container button {
+    height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .stories-button {
+    background-image: linear-gradient(95.37deg, #00ffa3 0%, #4aa6b2 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .stories-button:hover {
+    opacity: 0.89;
+  }
+
+  .stories-button-add {
+    background-color: #010e3a;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .stories-button-add:hover {
+    background-color: #010e3a9c;
+    color: rgba(255, 255, 255, 0.89);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .stories-button-approved {
+    background-color: #754ffe;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .stories-button-approved:hover {
+    color: rgba(255, 255, 255, 0.89);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .stories-formik-focus:focus {
+    border-color: #0feda6 !important;
+  }
+
+  .ck-focused {
+    border-color: #0feda6 !important;
+  }
+
+  .stories-box-gradient:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, #4aa6b2 0%, #0feda6 100%);
+    transform: translate3d(0px, 0px, 0) scale(1);
+    filter: blur(5px);
+    opacity: var(0.55);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+  }
+
+  .stories-box-gradient::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+  }
+
+  .stories-form-card-image {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 2;
+    object-fit: cover;
+  }
+
+  .btn-form-submit {
+    margin-left: 11px;
+    min-width: 100px;
+  }
+
+  .stories-card-footer {
+    height: 52.533333px;
+  }
+  adius: 5px;
+  cursor: pointer;
+}
+
+.stories-button:hover {
+  opacity: 0.89;
+}
+
+.stories-button-add {
+  background-color: #010e3a;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.stories-button-add:hover {
+  background-color: #010e3a9c;
+  color: rgba(255, 255, 255, 0.89);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.stories-button-approved {
+  background-color: #754ffe;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.stories-button-approved:hover {
+  color: rgba(255, 255, 255, 0.89);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.stories-formik-focus:focus {
+  border-color: #0feda6 !important;
+}
+
+.ck-focused {
+  border-color: #0feda6 !important;
+}
+
+.stories-box-gradient:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #4aa6b2 0%, #0feda6 100%);
+  transform: translate3d(0px, 0px, 0) scale(1);
+  filter: blur(5px);
+  opacity: var(0.55);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+.stories-box-gradient::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.stories-form-card-image {
+  width: 85%;
+  height: auto;
+  max-height: 450px;
+  display: block;
+  margin: auto;
+  padding: 2;
+  object-fit: cover;
+}
+.shared-story-form-img {
+  max-height: 450px;
+}
+
+.btn-form-submit {
+  margin-left: 11px;
+  min-width: 100px;
+}
+
+.stories-card-footer {
+  height: 52.533333px;
+}
